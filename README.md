@@ -8,7 +8,7 @@ This repository is used for:
 - 💡 **Feature requests** — Have an idea that would improve SplitLedger? We'd love to hear it.
 - 💬 **Discussions** — General questions, feedback, or community conversation.
 
-> ⚠️ **This repository does not contain source code.** For security-related issues, please **do not** open a public issue — instead, email us at [security@splitleger.com](mailto:security@splitleger.com).
+> ⚠️ **This repository does not contain source code.** For security-related issues, please **do not** open a public issue — instead, email us at [security@splitleger.pro](mailto:security@splitleger.pro).
 
 ---
 
@@ -43,4 +43,4 @@ Before opening an issue, please:
 
 ## 📬 Contact
 
-For business inquiries or anything not suited for public issues, reach out at [support@splitleger.com](mailto:support@splitleger.com).
+For business inquiries or anything not suited for public issues, reach out at [support@splitleger.pro](mailto:support@splitleger.pro).
