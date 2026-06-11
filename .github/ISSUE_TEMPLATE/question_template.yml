@@ -1,0 +1,31 @@
+name: ❓ Question / Support
+description: Need help with something? Ask here.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, please check [Discussions](../../discussions) — your question might already be answered there!
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What do you need help with?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context that might help us answer faster (e.g. your org type, what you were trying to do).
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions and couldn't find an answer.
+          required: true

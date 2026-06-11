@@ -1,0 +1,56 @@
+name: 💡 Feature Request
+description: Suggest a new feature or improvement for SplitLedger.
+title: "[Feature]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? We'd love to hear it! Please describe your suggestion in detail.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the pain point or limitation you're running into.
+      placeholder: e.g. "It's hard to track expenses across multiple events because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature or change you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you tried any workarounds or other approaches?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of the App
+      options:
+        - Dashboard
+        - Transactions / Expenses
+        - Events
+        - Members
+        - Discord Integration
+        - Stripe / Payments
+        - Organization Settings
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched for existing feature requests and this hasn't been suggested yet.
+          required: true

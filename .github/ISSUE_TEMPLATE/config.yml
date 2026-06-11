@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Start a Discussion
+    url: https://github.com/SplitLedger/support/discussions
+    about: For general questions and community conversation, use Discussions.
+  - name: 🔒 Security Vulnerability
+    url: mailto:security@splitleger.com
+    about: Please report security issues privately via email — not as a public issue.
